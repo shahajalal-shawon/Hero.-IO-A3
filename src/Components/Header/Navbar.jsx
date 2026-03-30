@@ -79,10 +79,10 @@ export const Navbar = () => {
         <ul className='menu menu-horizontal px-1'>{activeNavlinks}</ul>
       </div>
       <div className='navbar-end flex gap-2 '>
-        <button className="btn bg-[#9F62F2] text-white text-md">
+        <a href="https://github.com/shahajalal-shawon" className="btn bg-[#9F62F2] text-white text-md">
            <FontAwesomeIcon icon={faGithub} className="text-xl" />
           Contribute
-        </button>
+        </a>
       </div>
     </div>
   );

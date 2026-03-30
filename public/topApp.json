@@ -1,0 +1,58 @@
+[
+  {
+    "id": 1,
+    "app_title": "ChatWave",
+    "img": "https://i.ibb.co.com/BVVcWFHW/chatwave.png",
+    "download_count": "1M+",
+    "rating": 4.5
+  },
+  {
+    "id": 2,
+    "app_title": "FoodieGo",
+    "img": "https://i.ibb.co.com/ZRnnZqpB/foodie.png",
+    "download_count": "500K+",
+    "rating": 4.3
+  },
+  {
+    "id": 3,
+    "app_title": "FitTrack",
+    "img": "https://i.ibb.co.com/9jFq4Z5/fittrace.png",
+    "download_count": "2M+",
+    "rating": 4.7
+  },
+  {
+    "id": 4,
+    "app_title": "PhotoSnap",
+    "img": "https://i.ibb.co.com/67gWj9RF/photo.png",
+    "download_count": "3M+",
+    "rating": 4.6
+  },
+  {
+    "id": 5,
+    "app_title": "LearnHub",
+    "img": "https://i.ibb.co.com/8Dwmt6p8/learn.png",
+    "download_count": "800K+",
+    "rating": 4.4
+  },
+  {
+    "id": 6,
+    "app_title": "GameZone",
+    "img": "https://i.ibb.co.com/cc07TNxH/game.jpg",
+    "download_count": "5M+",
+    "rating": 4.8
+  },
+  {
+    "id": 7,
+    "app_title": "TravelMate",
+    "img": "https://i.ibb.co.com/5tbQMXC/trave.png",
+    "download_count": "1.2M+",
+    "rating": 4.5
+  },
+  {
+    "id": 8,
+    "app_title": "MusicBeat",
+    "img": "https://i.ibb.co.com/Nd5BwrGd/music.png",
+    "download_count": "900K+",
+    "rating": 4.2
+  }
+]

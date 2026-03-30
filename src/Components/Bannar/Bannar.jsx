@@ -1,6 +1,7 @@
 import bannar from "../../assets/hero.png";
 import play from "../../assets/play-store.jpg";
 import app from "../../assets/App_Store.png";
+import { Link } from "react-router";
 
 export const Bannar = () => {
   return (
@@ -17,16 +18,20 @@ export const Bannar = () => {
           make an impact.
         </p>
         <div className='space-x-6'>
-          <button className='btn'>
+          <a
+            className='btn'
+            href='https://play.google.com/store/games?hl=en&pli=1'
+          >
             {" "}
             <img className='h-6' src={play} />
             Google Play
-          </button>
-          <button className='btn'>
+          </a>
+
+          <a className='btn' href='https://www.apple.com/app-store/'>
             {" "}
             <img className='h-6' src={app} />
             App Store
-          </button>
+          </a>
         </div>
       </div>
       <div className='mt-10'>
