@@ -1,7 +1,6 @@
-import React from "react";
 import bannar from "../../assets/hero.png";
 import play from "../../assets/play-store.jpg";
-import app from "../../assets/App_Store.png"
+import app from "../../assets/App_Store.png";
 
 export const Bannar = () => {
   return (
@@ -25,7 +24,7 @@ export const Bannar = () => {
           </button>
           <button className='btn'>
             {" "}
-            <img className="h-6" src={app} />
+            <img className='h-6' src={app} />
             App Store
           </button>
         </div>
