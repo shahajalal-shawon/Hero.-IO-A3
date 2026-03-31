@@ -1,9 +1,11 @@
-import React from "react";
+import React from 'react'
+import { Link } from 'react-router';
 
-export const TopApps = ({ TopApp }) => {
-  const { app_title, img, download_count, rating } = TopApp;
+export const AppsCard = ({apps}) => {
+    const {id, app_title, img, download_count, rating } = apps;
   return (
-    <div className='card bg-base-100 shadow-sm'>
+    <Link to={`/appdetails/${id}`}>
+    <div  className='card bg-base-100 shadow-sm'>
       <figure>
         <img className="h-70" src={img} alt='Shoes' />
       </figure>
@@ -15,5 +17,6 @@ export const TopApps = ({ TopApp }) => {
         </div>
       </div>
     </div>
-  );
-};
+    </Link>
+  )
+}

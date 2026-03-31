@@ -3,7 +3,7 @@ import logo  from '../../assets/logo.png'
 
 export const Footer = () => {
   return (
-    <footer className='footer sm:footer-horizontal bg-neutral text-neutral-content p-10'>
+    <footer className='footer sm:footer-horizontal bg-neutral text-neutral-content p-10 mt-20'>
       <aside>
         <img className="h-10" src={logo} alt="" />
         <p>
@@ -50,6 +50,8 @@ export const Footer = () => {
           </a>
         </div>
       </nav>
+     
     </footer>
+    
   );
 };
