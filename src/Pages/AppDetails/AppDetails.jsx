@@ -10,17 +10,21 @@ export const AppDetails = () => {
   return (
     <div className='max-w-7xl mx-auto mt-10'>
       <div className='lg:flex gap-10'>
-        <img className='h-60 flex items-center' src={app.img} alt='' />
+        <img className='h-60 flex items-center' src={app.img} alt='coming soon....' />
         <div>
           <h2 className='text-2xl font-semibold'>{app.app_title}</h2>
-          <div className='flex justify-between mt-2'>
+          <div className='flex justify-between mt-2 gap-6 mb-6'>
             <p className='btn bg-green-200'>{app.download_count}</p>
             <p className='btn bg-orange-200'>{app.rating}</p>
           </div>
+          <div>
+            <button className='btn'>Install Now</button>
+          </div>
         </div>
       </div>
+
       <div>
-        <p className="text-xl font-semibold">Description</p>
+        <p className='text-xl font-semibold'>Description</p>
         <p>{app.description}</p>
       </div>
     </div>
